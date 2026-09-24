@@ -12,8 +12,11 @@ namespace ClaseCofre
 
         public void Abrir()
         {
-            if (abierto == false) 
+            if (abierto == false)
+            {
+                abierto = true;
                 Console.WriteLine($"¡Abriste el cofre encontraste {oro}G!.");
+            }
             else
                 Console.WriteLine("El cofre ya esta abierto.");
         }
