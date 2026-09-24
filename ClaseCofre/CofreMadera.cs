@@ -18,7 +18,7 @@ namespace ClaseCofre
                 Console.WriteLine($"¡Abriste el cofre encontraste {oro}G!.");
             }
             else
-                Console.WriteLine("El cofre ya esta abierto.");
+                Console.WriteLine("El cofre esta VACIO.");
         }
     }
 }
